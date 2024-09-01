@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --primary-color:#218573;
+}
+
+body{
+
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #f0fff0;
+    padding: 32px 0;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  padding: 8px 20px;
+  display: block; 
+}
+.custom-btn,
+nav a:hover{
+  border-radius: 40px;
+  color:#fff;
+  background-color:var(--primary-color);
+  text-decoration: none;
+  padding: 8px 20px;
+  display:inline-block; 
+}
+.bannercontent{}
+.bannercontent h5{
+ color: red;
+}
+.bannercontent h1{
+  font-size: 48px;
+  font-weight: 600px;
+}
+.bannercontent h1 span{
+  color: var(--primary-color);
+}
+.bannercontent p{}
+
+@media(max-width:991px){
+.bannercontent h5{
+   font-size: 14px;
+  }
+.bannercontent h1{
+   font-size:38px;
+   font-weight: 600;
+  }
+}
+
+@media(max-width:767){
+.bannercontent {
+    text-align:center;
+  }
+  
+}
+.images{
+  width: 80px;
+  height: 85px;
+  top: 672px;
+  left: 231px;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+    
